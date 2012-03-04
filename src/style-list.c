@@ -210,8 +210,8 @@ calc_state_flags (GSList *states)
         flags |= GTK_STATE_FLAG_INCONSISTENT;
       else if (!strcmp (s, "focused"))
         flags |= GTK_STATE_FLAG_FOCUSED;
-      else if (!strcmp (s, "backdrop"))
-        flags |= GTK_STATE_FLAG_BACKDROP;
+      //      else if (!strcmp (s, "backdrop"))
+      //        flags |= GTK_STATE_FLAG_BACKDROP;
 
       states = states->next;
     }

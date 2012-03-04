@@ -85,7 +85,7 @@ style_classes_entry_ratelimiter (gpointer data)
 
   parasite->style_classes_entry_ratelimit_id = 0;
 
-  return G_SOURCE_REMOVE;
+  return 1;
 }
 
 static void
